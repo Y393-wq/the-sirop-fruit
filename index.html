@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Sirop Fruit</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #fff7d6, #ffe0b2);
+      color: #222;
+      text-align: center;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff7b00, #ffb300);
+      color: white;
+      padding: 35px 20px;
+      border-radius: 0 0 30px 30px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .intro {
+      background: white;
+      padding: 25px;
+      border-radius: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+    }
+
+    .intro h2 {
+      color: #ff7100;
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    .flavors {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      margin-top: 25px;
+    }
+
+    .flavor {
+      background: white;
+      border-radius: 25px;
+      padding: 25px 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+      transition: transform 0.2s;
+    }
+
+    .flavor:hover {
+      transform: translateY(-5px);
+    }
+
+    .fruit {
+      font-size: 55px;
+      margin-bottom: 10px;
+    }
+
+    .flavor h3 {
+      color: #ff7100;
+      font-size: 22px;
+    }
+
+    .prices {
+      margin-top: 35px;
+      background: #fff;
+      border-radius: 25px;
+      padding: 25px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.12);
+    }
+
+    .prices h2 {
+      color: #ff7100;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      display: inline-block;
+      margin: 10px;
+      padding: 18px 25px;
+      border-radius: 20px;
+      background: #fff1c1;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .contact {
+      margin-top: 30px;
+      background: linear-gradient(135deg, #ff7100, #ffb300);
+      color: white;
+      padding: 30px 20px;
+      border-radius: 25px;
+    }
+
+    .contact h2 {
+      margin-bottom: 15px;
+    }
+
+    .phone {
+      display: inline-block;
+      margin-top: 15px;
+      background: white;
+      color: #ff7100;
+      padding: 15px 25px;
+      border-radius: 15px;
+      font-size: 23px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 20px;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🍹 The Sirop Fruit 🍹</h1>
+    <p>Des sirops fruités et gourmands !</p>
+  </header>
+
+  <div class="container">
+
+    <section class="intro">
+      <h2>Bienvenue chez The Sirop Fruit !</h2>
+      <p>
+        Découvrez nos délicieux sirops aux saveurs fruitées,
+        préparés pour vous faire profiter d'une boisson pleine de goût.
+      </p>
+    </section>
+
+    <section>
+      <h2>🍓 Nos parfums</h2>
+
+      <div class="flavors">
+
+        <div class="flavor">
+          <div class="fruit">🍑</div>
+          <h3>Pêche</h3>
+        </div>
+
+        <div class="flavor">
+          <div class="fruit">🥝🍌</div>
+          <h3>Banane Kiwi</h3>
+        </div>
+
+        <div class="flavor">
+          <div class="fruit">🌿</div>
+          <h3>Menthe</h3>
+        </div>
+
+        <div class="flavor">
+          <div class="fruit">🍋</div>
+          <h3>Citron</h3>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="prices">
+      <h2>💰 Nos prix</h2>
+
+      <div class="price">
+        Petite bouteille : 1 €
+      </div>
+
+      <div class="price">
+        Grande bouteille : 2 €
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>📍 Où nous trouver ?</h2>
+
+      <p>
+        Mont-de-Marsan<br>
+        Devant le collège Cel le Gaucher
+      </p>
+
+      <a class="phone" href="tel:0759202198">
+        📞 07 59 20 21 98
+      </a>
+    </section>
+
+  </div>
+
+  <footer>
+    © 2026 The Sirop Fruit — Tous droits réservés
+  </footer>
+
+</body>
+</html>
